@@ -49,13 +49,13 @@ private:
 	}
 };
 
-int main() {
-	std::unique_ptr<AbstractMadLib> ml1 = std::make_unique<MadLib1>();
-	std::unique_ptr<AbstractMadLib> ml2 = std::make_unique<MadLib2>();
-
-	std::cout << "Outputting MadLib1: " << std::endl;
-	ml1->OutputMadLib();
-	std::cout << std::endl;
-	std::cout << "Outputting MadLib2: " << std::endl;
-	ml2->OutputMadLib();
-}
+//int main() {
+//	std::unique_ptr<AbstractMadLib> ml1 = std::make_unique<MadLib1>();
+//	std::unique_ptr<AbstractMadLib> ml2 = std::make_unique<MadLib2>();
+//
+//	std::cout << "Outputting MadLib1: " << std::endl;
+//	ml1->OutputMadLib();
+//	std::cout << std::endl;
+//	std::cout << "Outputting MadLib2: " << std::endl;
+//	ml2->OutputMadLib();
+//}

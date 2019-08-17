@@ -125,6 +125,8 @@
   <ItemGroup>
     <ClCompile Include="command1.cpp" />
     <ClCompile Include="command2.cpp" />
+    <ClCompile Include="observer_multi_thread.cpp" />
+    <ClCompile Include="observer_single_thread.cpp" />
     <ClCompile Include="template1.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
