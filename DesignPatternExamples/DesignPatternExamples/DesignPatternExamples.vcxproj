@@ -128,7 +128,16 @@
     <ClCompile Include="crtp.cpp" />
     <ClCompile Include="observer_multi_thread.cpp" />
     <ClCompile Include="observer_single_thread.cpp" />
+    <ClCompile Include="runner.cpp" />
     <ClCompile Include="template.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AmericanPlug.h" />
+    <ClInclude Include="EuropeanPlug.h" />
+    <ClInclude Include="EuropeanPlugAdapter.h" />
+    <ClInclude Include="IAmericanPlug.h" />
+    <ClInclude Include="IEuropeanPlug.h" />
+    <ClInclude Include="WallOutlet.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -13,6 +13,15 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
+    <Filter Include="Source Files\adapter_expanded">
+      <UniqueIdentifier>{fd454ab5-7e0f-4238-bc5c-7d08dd3a2f02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\adapter_expanded\American">
+      <UniqueIdentifier>{1fd63a90-d891-4239-8649-c499e215e68e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\adapter_expanded\European">
+      <UniqueIdentifier>{4791d5db-a7c6-4d28-9ec1-5ed993f3c22d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="observer_single_thread.cpp">
@@ -30,5 +39,31 @@
     <ClCompile Include="command_without_undo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="crtp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="runner.cpp">
+      <Filter>Source Files\adapter_expanded</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AmericanPlug.h">
+      <Filter>Source Files\adapter_expanded\American</Filter>
+    </ClInclude>
+    <ClInclude Include="IAmericanPlug.h">
+      <Filter>Source Files\adapter_expanded\American</Filter>
+    </ClInclude>
+    <ClInclude Include="EuropeanPlug.h">
+      <Filter>Source Files\adapter_expanded\European</Filter>
+    </ClInclude>
+    <ClInclude Include="IEuropeanPlug.h">
+      <Filter>Source Files\adapter_expanded\European</Filter>
+    </ClInclude>
+    <ClInclude Include="WallOutlet.h">
+      <Filter>Source Files\adapter_expanded</Filter>
+    </ClInclude>
+    <ClInclude Include="EuropeanPlugAdapter.h">
+      <Filter>Source Files\adapter_expanded</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
