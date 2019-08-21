@@ -15,19 +15,19 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="command1.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="command2.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="template1.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="observer_single_thread.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="observer_multi_thread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="template.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="command_with_undo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="command_without_undo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -123,11 +123,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="command1.cpp" />
-    <ClCompile Include="command2.cpp" />
+    <ClCompile Include="command_without_undo.cpp" />
+    <ClCompile Include="command_with_undo.cpp" />
+    <ClCompile Include="crtp.cpp" />
     <ClCompile Include="observer_multi_thread.cpp" />
     <ClCompile Include="observer_single_thread.cpp" />
-    <ClCompile Include="template1.cpp" />
+    <ClCompile Include="template.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

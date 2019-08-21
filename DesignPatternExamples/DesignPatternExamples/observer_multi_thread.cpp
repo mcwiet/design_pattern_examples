@@ -107,44 +107,44 @@ private:
 	std::thread thread_;
 };
 
-int main() {
-	ThreadSafeLogger log( std::cout );
-	Alarm alarm( log );
-	Speaker spkr1( "Speaker 1", alarm, log );
-	Speaker spkr2( "Speaker 2", alarm, log );
-	Speaker spkr3( "Speaker 3", alarm, log );
-
-	std::string input;
-
-	while (input != "exit") {
-		std::getline( std::cin, input );
-
-		if (input == "register speaker 1") {
-			std::cout << "yay!" << std::endl;
-			alarm.RegisterObserver( spkr1 );
-		}
-		else if (input == "register speaker 2") {
-			alarm.RegisterObserver( spkr2 );
-		}
-		else if (input == "register speaker 3") {
-			alarm.RegisterObserver( spkr3 );
-		}
-		else if (input == "unregister speaker 1") {
-			alarm.UnregisterObserver( spkr1 );
-		}
-		else if (input == "unregister speaker 2") {
-			alarm.UnregisterObserver( spkr2 );
-		}
-		else if (input == "unregister speaker 3") {
-			alarm.UnregisterObserver( spkr3 );
-		}
-		else if (input == "activate") {
-			alarm.Activate();
-		}
-		else if (input == "deactivate") {
-			alarm.Deactivate();
-		}
-	}
-
-	return 0;
-}
+//int main() {
+//	ThreadSafeLogger log( std::cout );
+//	Alarm alarm( log );
+//	Speaker spkr1( "Speaker 1", alarm, log );
+//	Speaker spkr2( "Speaker 2", alarm, log );
+//	Speaker spkr3( "Speaker 3", alarm, log );
+//
+//	std::string input;
+//
+//	while (input != "exit") {
+//		std::getline( std::cin, input );
+//
+//		if (input == "register speaker 1") {
+//			std::cout << "yay!" << std::endl;
+//			alarm.RegisterObserver( spkr1 );
+//		}
+//		else if (input == "register speaker 2") {
+//			alarm.RegisterObserver( spkr2 );
+//		}
+//		else if (input == "register speaker 3") {
+//			alarm.RegisterObserver( spkr3 );
+//		}
+//		else if (input == "unregister speaker 1") {
+//			alarm.UnregisterObserver( spkr1 );
+//		}
+//		else if (input == "unregister speaker 2") {
+//			alarm.UnregisterObserver( spkr2 );
+//		}
+//		else if (input == "unregister speaker 3") {
+//			alarm.UnregisterObserver( spkr3 );
+//		}
+//		else if (input == "activate") {
+//			alarm.Activate();
+//		}
+//		else if (input == "deactivate") {
+//			alarm.Deactivate();
+//		}
+//	}
+//
+//	return 0;
+//}
