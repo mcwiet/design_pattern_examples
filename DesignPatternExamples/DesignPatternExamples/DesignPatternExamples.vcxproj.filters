@@ -51,6 +51,9 @@
     <ClCompile Include="adapter.cpp">
       <Filter>Source Files\patterns\adapter_expanded</Filter>
     </ClCompile>
+    <ClCompile Include="proxy.cpp">
+      <Filter>Source Files\patterns</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AmericanPlug.h">
