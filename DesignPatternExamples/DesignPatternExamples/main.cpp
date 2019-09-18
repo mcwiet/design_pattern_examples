@@ -5,6 +5,7 @@
 #include "observer_multi_thread.cpp"
 #include "observer_single_thread.cpp"
 #include "proxy.cpp"
+#include "strategy.cpp"
 #include "template.cpp"
 
 int main() {
@@ -15,7 +16,8 @@ int main() {
 	//ObserverMultiThread::Run();
 	//ObserverSingleThread::Run();
 	//Template::Run();
-	Proxy::Run();
+	Strategy::Run();
+	//Proxy::Run();
 
 	return 0;
 }

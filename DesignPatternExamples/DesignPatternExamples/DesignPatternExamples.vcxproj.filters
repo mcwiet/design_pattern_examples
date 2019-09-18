@@ -54,6 +54,9 @@
     <ClCompile Include="proxy.cpp">
       <Filter>Source Files\patterns</Filter>
     </ClCompile>
+    <ClCompile Include="strategy.cpp">
+      <Filter>Source Files\patterns</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AmericanPlug.h">
