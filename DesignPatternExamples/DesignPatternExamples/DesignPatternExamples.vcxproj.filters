@@ -60,6 +60,9 @@
     <ClCompile Include="singleton.cpp">
       <Filter>Source Files\patterns</Filter>
     </ClCompile>
+    <ClCompile Include="facade.cpp">
+      <Filter>Source Files\patterns</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AmericanPlug.h">
