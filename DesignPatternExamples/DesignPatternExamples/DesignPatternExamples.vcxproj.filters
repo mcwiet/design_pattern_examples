@@ -57,6 +57,9 @@
     <ClCompile Include="strategy.cpp">
       <Filter>Source Files\patterns</Filter>
     </ClCompile>
+    <ClCompile Include="singleton.cpp">
+      <Filter>Source Files\patterns</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AmericanPlug.h">

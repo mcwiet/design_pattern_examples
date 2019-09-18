@@ -15,7 +15,7 @@ namespace Strategy {
 	};
 
 	class ScubaFins : public SwimStrategy {
-	public: 
+	public:
 		virtual void Swim() override {
 			std::cout << "Getting faster with some sweet Scuba gear." << std::endl;
 		}
