@@ -2,6 +2,7 @@
 #include "command_with_undo.cpp"
 #include "command_without_undo.cpp"
 #include "crtp.cpp"
+#include "decorator.cpp"
 #include "facade.cpp"
 #include "observer_multi_thread.cpp"
 #include "observer_single_thread.cpp"
@@ -15,7 +16,8 @@ int main() {
 	//CommandWithUndo::Run();
 	//CommandWithoutUndo::Run();
 	//CRTP::Run();
-	Facade::Run();
+	Decorator::Run();
+	//Facade::Run();
 	//ObserverMultiThread::Run();
 	//ObserverSingleThread::Run();
 	//Template::Run();
