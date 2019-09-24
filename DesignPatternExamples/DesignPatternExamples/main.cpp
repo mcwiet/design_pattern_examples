@@ -1,4 +1,5 @@
 #include "adapter.cpp"
+#include "bridge.cpp"
 #include "command_with_undo.cpp"
 #include "command_without_undo.cpp"
 #include "crtp.cpp"
@@ -13,10 +14,11 @@
 
 int main() {
 	//Adapter::Run();
+	Bridge::Run();
 	//CommandWithUndo::Run();
 	//CommandWithoutUndo::Run();
 	//CRTP::Run();
-	Decorator::Run();
+	//Decorator::Run();
 	//Facade::Run();
 	//ObserverMultiThread::Run();
 	//ObserverSingleThread::Run();
