@@ -5,6 +5,7 @@
 #include "crtp.cpp"
 #include "decorator.cpp"
 #include "facade.cpp"
+#include "null_object.cpp"
 #include "observer_multi_thread.cpp"
 #include "observer_single_thread.cpp"
 #include "proxy.cpp"
@@ -14,12 +15,13 @@
 
 int main() {
 	//Adapter::Run();
-	Bridge::Run();
+	//Bridge::Run();
 	//CommandWithUndo::Run();
 	//CommandWithoutUndo::Run();
 	//CRTP::Run();
 	//Decorator::Run();
 	//Facade::Run();
+	NullObject::Run();
 	//ObserverMultiThread::Run();
 	//ObserverSingleThread::Run();
 	//Template::Run();

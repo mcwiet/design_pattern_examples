@@ -69,6 +69,9 @@
     <ClCompile Include="bridge.cpp">
       <Filter>Source Files\patterns</Filter>
     </ClCompile>
+    <ClCompile Include="null_object.cpp">
+      <Filter>Source Files\patterns</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AmericanPlug.h">
