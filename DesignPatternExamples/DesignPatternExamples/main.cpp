@@ -10,6 +10,7 @@
 #include "observer_single_thread.cpp"
 #include "proxy.cpp"
 #include "singleton.cpp"
+#include "state.cpp"
 #include "strategy.cpp"
 #include "template.cpp"
 
@@ -21,11 +22,12 @@ int main() {
 	//CRTP::Run();
 	//Decorator::Run();
 	//Facade::Run();
-	NullObject::Run();
+	//NullObject::Run();
 	//ObserverMultiThread::Run();
 	//ObserverSingleThread::Run();
 	//Template::Run();
 	//Singleton::Run();
+	State::Run();
 	//Strategy::Run();
 	//Proxy::Run();
 
