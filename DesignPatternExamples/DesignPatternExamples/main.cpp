@@ -5,6 +5,7 @@
 #include "crtp.cpp"
 #include "decorator.cpp"
 #include "facade.cpp"
+#include "iterator.cpp"
 #include "null_object.cpp"
 #include "observer_multi_thread.cpp"
 #include "observer_single_thread.cpp"
@@ -22,6 +23,7 @@ int main() {
 	//CRTP::Run();
 	//Decorator::Run();
 	//Facade::Run();
+	Iterator::Run();
 	//NullObject::Run();
 	//ObserverMultiThread::Run();
 	//ObserverSingleThread::Run();
