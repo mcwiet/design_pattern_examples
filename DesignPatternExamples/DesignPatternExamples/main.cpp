@@ -27,7 +27,7 @@ int main() {
 	//ObserverSingleThread::Run();
 	//Template::Run();
 	//Singleton::Run();
-	State::Run();
+	//State::Run();
 	//Strategy::Run();
 	//Proxy::Run();
 

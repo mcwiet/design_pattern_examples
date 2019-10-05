@@ -75,6 +75,9 @@
     <ClCompile Include="state.cpp">
       <Filter>Source Files\patterns</Filter>
     </ClCompile>
+    <ClCompile Include="iterator.cpp">
+      <Filter>Source Files\patterns</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AmericanPlug.h">
