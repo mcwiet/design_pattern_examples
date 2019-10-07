@@ -2,6 +2,7 @@
 #include "bridge.cpp"
 #include "command_with_undo.cpp"
 #include "command_without_undo.cpp"
+#include "composite.cpp"
 #include "crtp.cpp"
 #include "decorator.cpp"
 #include "facade.cpp"
@@ -20,10 +21,11 @@ int main() {
 	//Bridge::Run();
 	//CommandWithUndo::Run();
 	//CommandWithoutUndo::Run();
+	Composite::Run();
 	//CRTP::Run();
 	//Decorator::Run();
 	//Facade::Run();
-	Iterator::Run();
+	//Iterator::Run();
 	//NullObject::Run();
 	//ObserverMultiThread::Run();
 	//ObserverSingleThread::Run();

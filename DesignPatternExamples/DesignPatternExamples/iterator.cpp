@@ -101,7 +101,7 @@ namespace Iterator {
 		return std::move(cards_.at(index));
 	}
 	unsigned Hand::GetHandSize() const {
-		return cards_.size();
+		return static_cast<unsigned>(cards_.size());
 	}
 	std::unique_ptr<Iterator<Card>> Hand::GetIterator() const {
 		return std::make_unique<CardIterator>(this);
