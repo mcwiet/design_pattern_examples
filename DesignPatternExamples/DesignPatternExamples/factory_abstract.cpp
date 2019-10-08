@@ -68,12 +68,23 @@ namespace FactoryAbstract {
 		AndroidFactory* CreateAndroidFactory() { return new AndroidFactory; }
 	};
 
+	template<typename T>
+	void FreeMem(T* p) {
+		if (p != nullptr) {
+			delete p;
+			p = nullptr;
+		}
+	}
+
 	void Run() {
+		ProductFactory* factory = nullptr;
+		Product* product = nullptr;
 		while (true) {
+			FreeMem(factory);
+			FreeMem(product);
 			std::cout << "Do you use Apple products or Android products?" << std::endl;
 			std::string input;
 			std::getline(std::cin, input);
-			ProductFactory* factory = nullptr;
 			if (input == "Apple")
 				factory = ProductLineFactory().CreateIPhoneFactory();
 			else if (input == "Android")
@@ -83,7 +94,6 @@ namespace FactoryAbstract {
 
 			std::cout << "Do you need a phone, a charger, or a case?" << std::endl;
 			std::getline(std::cin, input);
-			Product* product = nullptr;
 			if (input == "phone")
 				product = factory->BuildPhone();
 			else if (input == "charger")
@@ -95,5 +105,7 @@ namespace FactoryAbstract {
 
 			std::cout << "You just purchased an " << product->GetName() << "." << std::endl << std::endl;
 		}
+		FreeMem(factory);
+		FreeMem(product);
 	}
 }
