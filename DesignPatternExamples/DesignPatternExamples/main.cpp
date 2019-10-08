@@ -7,6 +7,7 @@
 #include "decorator.cpp"
 #include "facade.cpp"
 #include "factory.cpp"
+#include "factory_abstract.cpp"
 #include "iterator.cpp"
 #include "null_object.cpp"
 #include "observer_multi_thread.cpp"
@@ -26,7 +27,8 @@ int main() {
 	//CRTP::Run();
 	//Decorator::Run();
 	//Facade::Run();
-	Factory::Run();
+	//Factory::Run();
+	FactoryAbstract::Run();
 	//Iterator::Run();
 	//NullObject::Run();
 	//ObserverMultiThread::Run();
