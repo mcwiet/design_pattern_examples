@@ -6,6 +6,7 @@
 #include "crtp.cpp"
 #include "decorator.cpp"
 #include "facade.cpp"
+#include "factory.cpp"
 #include "iterator.cpp"
 #include "null_object.cpp"
 #include "observer_multi_thread.cpp"
@@ -21,10 +22,11 @@ int main() {
 	//Bridge::Run();
 	//CommandWithUndo::Run();
 	//CommandWithoutUndo::Run();
-	Composite::Run();
+	//Composite::Run();
 	//CRTP::Run();
 	//Decorator::Run();
 	//Facade::Run();
+	Factory::Run();
 	//Iterator::Run();
 	//NullObject::Run();
 	//ObserverMultiThread::Run();
