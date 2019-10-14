@@ -29,7 +29,7 @@ int main() {
 	//Decorator::Run();
 	//Facade::Run();
 	//Factory::Run();
-	FactoryAbstract::Run();
+	//FactoryAbstract::Run();
 	//Iterator::Run();
 	Mixin::Run();
 	//NullObject::Run();
