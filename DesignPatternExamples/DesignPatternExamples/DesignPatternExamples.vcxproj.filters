@@ -81,7 +81,13 @@
     <ClCompile Include="composite.cpp">
       <Filter>Source Files\patterns</Filter>
     </ClCompile>
-    <ClCompile Include="mixin.cpp">
+    <ClCompile Include="composite.cpp">
+        <ClCompile Include="mixin.cpp">
+    </ClCompile>
+    <ClCompile Include="factory.cpp">
+      <Filter>Source Files\patterns</Filter>
+    </ClCompile>
+    <ClCompile Include="factory_abstract.cpp">
       <Filter>Source Files\patterns</Filter>
     </ClCompile>
   </ItemGroup>

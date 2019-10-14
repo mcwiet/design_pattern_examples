@@ -6,6 +6,8 @@
 #include "crtp.cpp"
 #include "decorator.cpp"
 #include "facade.cpp"
+#include "factory.cpp"
+#include "factory_abstract.cpp"
 #include "iterator.cpp"
 #include "mixin.cpp"
 #include "null_object.cpp"
@@ -26,6 +28,8 @@ int main() {
 	//CRTP::Run();
 	//Decorator::Run();
 	//Facade::Run();
+	//Factory::Run();
+	FactoryAbstract::Run();
 	//Iterator::Run();
 	Mixin::Run();
 	//NullObject::Run();
